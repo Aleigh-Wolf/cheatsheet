@@ -12,7 +12,7 @@ body {
     top: 0;
     width: 100%;
     background-color: #59253a;
-    color: #6d745c;
+    color: #2d4159;
     padding: 1rem;
     z-index: 1000;
     text-align: center;
@@ -49,7 +49,6 @@ body {
   }
   
   #welcome h2, #welcome p {
-    display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 5px;
   }
@@ -61,12 +60,14 @@ body {
     padding: 0 1rem;
     text-align: center;
   }
-  
-  /* Inside section list items inline */
+
+
+/* Inside section list items inline */
   #inside h2 {
     text-align: center;
-    }
-    
+    margin-bottom: 1rem;
+  }
+  
   #inside ul {
     display: flex;
     justify-content: center;
@@ -74,13 +75,23 @@ body {
     padding: 0;
     list-style: none;
     flex-wrap: wrap;
+    margin: 0 auto;
   }
   
   #inside li {
-    background-color: #bcb4a3;
-    padding: 1rem;
-    border-radius: 5px;
+    background-color: #895061;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
   }
+  
+  #inside li:hover {
+    transform: translateY(-5px);
+  }
+  
   
   /* Footer styling */
   #footer {
