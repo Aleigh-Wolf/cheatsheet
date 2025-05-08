@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Cheatsheet</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <h1>HTML Cheatsheet</h1>
+    <p>A quick guide to essential HTML tags, attributes, and layout.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="html.html" class="active">HTML</a></li>
+        <li><a href="css.html" class="active">CSS</a></li>
+        <li><a href="js.html" class="active">JavaScript</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Tags Section -->
+    <section class="section">
+      <h2>Essential HTML Tags</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Purpose</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;h1&gt; - &lt;h6&gt;</td>
+            <td>Headings</td>
+            <td><code>&lt;h1&gt;Main Title&lt;/h1&gt;</code></td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>Paragraph</td>
+            <td><code>&lt;p&gt;Text&lt;/p&gt;</code></td>
+          </tr>
+          <tr>
+            <td>&lt;a&gt;</td>
+            <td>Link</td>
+            <td><code>&lt;a href="url"&gt;Click&lt;/a&gt;</code></td>
+          </tr>
+          <tr>
+            <td>&lt;img&gt;</td>
+            <td>Image</td>
+            <td><code>&lt;img src="img.jpg" alt="desc"&gt;</code></td>
+          </tr>
+          <tr>
+            <td>&lt;ul&gt; / &lt;ol&gt;</td>
+            <td>Lists</td>
+            <td><code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code></td>
+          </tr>
+          <tr>
+            <td>&lt;div&gt;</td>
+            <td>Block container</td>
+            <td><code>&lt;div&gt;Content&lt;/div&gt;</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Attributes Section -->
+    <section class="section">
+      <h2>HTML Attributes</h2>
+      <p>Attributes add extra information to tags. They're always written inside the opening tag.</p>
+      <ul>
+        <li><strong>href</strong>: Sets the link in <code>&lt;a&gt;</code></li>
+        <li><strong>src</strong>: Sets the image source in <code>&lt;img&gt;</code></li>
+        <li><strong>alt</strong>: Adds alternative text for images</li>
+        <li><strong>class</strong> / <strong>id</strong>: Used for CSS and JavaScript</li>
+        <li><strong>title</strong>: Tooltip on hover</li>
+      </ul>
+      <p>Example:</p>
+      <pre><code>&lt;a href="https://example.com" title="Visit site"&gt;Visit Example&lt;/a&gt;</code></pre>
+    </section>
+
+    <!-- Layout Structure Section -->
+    <section class="section">
+      <h2>Basic HTML Page Structure</h2>
+      <p>A typical HTML5 page includes semantic elements for better structure and readability.</p>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;Header content&lt;/header&gt;
+    &lt;nav&gt;Navigation&lt;/nav&gt;
+    &lt;main&gt;
+      &lt;section&gt;Main content&lt;/section&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;Footer info&lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Aleigh Smith · <a href="https://github.com/aleigh-wolf">GitHub</a> · 2025</p>
+  </footer>
+</body>
+</html>

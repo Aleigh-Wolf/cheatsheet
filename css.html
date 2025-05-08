@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Cheatsheet</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <h1>CSS Cheatsheet</h1>
+    <p>Essential styling rules and layout techniques.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="html.html" class="active">HTML</a></li>
+        <li><a href="css.html" class="active">CSS</a></li>
+        <li><a href="js.html" class="active">JavaScript</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Basic Selectors</h2>
+      <ul>
+        <li><code>element { }</code> – targets all elements</li>
+        <li><code>.class { }</code> – targets elements with class</li>
+        <li><code>#id { }</code> – targets element by ID</li>
+        <li><code>element1 element2</code> – nested selector</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Box Model</h2>
+      <p>The box model includes: <strong>content</strong>, <strong>padding</strong>, <strong>border</strong>, and <strong>margin</strong>.</p>
+      <pre><code>
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+}
+      </code></pre>
+    </section>
+
+    <section class="section">
+      <h2>Layout Techniques</h2>
+      <ul>
+        <li><code>display: flex;</code> – Flexbox layout</li>
+        <li><code>display: grid;</code> – Grid layout</li>
+        <li><code>position: fixed;</code> – Fixed positioning</li>
+        <li><code>text-align: center;</code> – Center text</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Aleigh Smith · <a href="https://github.com/aleigh-wolf">GitHub</a> · 2025</p>
+  </footer>
+</body>
+</html>

@@ -12,7 +12,7 @@ body {
     top: 0;
     width: 100%;
     background-color: #59253a;
-    color: #2d4159;
+    color: whitesmoke;
     padding: 1rem;
     z-index: 1000;
     text-align: center;
@@ -28,11 +28,27 @@ body {
   }
   
   #header nav a {
-    color: #895061;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
   }
   
+  nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #333;
+  }
+  
+  nav a.active {
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+
   /* Main content adjustment to avoid being hidden behind fixed header */
   main {
     padding-top: 160px;
@@ -43,7 +59,7 @@ body {
     background-image: url('https://images.unsplash.com/photo-1590700198862-f812474f4e0a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #59253a;
     padding: 4rem 2rem;
     text-align: center;
   }
@@ -88,8 +104,34 @@ body {
     transition: transform 0.2s ease;
   }
   
+  /* Inside section list items hover effect */
   #inside li:hover {
     transform: translateY(-5px);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  /* Table styling */
+  th {
+    background-color: #2d4159;
+    color: whitesmoke;
+    padding: 0.5rem;
+  }  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  code, pre {
+    background-color: #whitesmoke;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-family: monospace;
   }
   
   
