@@ -12,7 +12,7 @@ body {
     top: 0;
     width: 100%;
     background-color: #59253a;
-    color: whitesmoke;
+    color:contrast-color(background-color);
     padding: 1rem;
     z-index: 1000;
     text-align: center;
