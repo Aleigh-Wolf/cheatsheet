@@ -12,7 +12,7 @@ body {
     top: 0;
     width: 100%;
     background-color: #59253a;
-    color:contrast-color(background-color);
+    color: whitesmoke;
     padding: 1rem;
     z-index: 1000;
     text-align: center;
@@ -36,7 +36,7 @@ body {
   nav a {
     text-decoration: none;
     padding: 0.5rem;
-    color: #333;
+    color: whitesmoke;
   }
   
   nav a.active {
@@ -119,6 +119,7 @@ body {
     background-color: #2d4159;
     color: whitesmoke;
     padding: 0.5rem;
+    width: 500px;
   }  
   th, td {
     border: 1px solid #ccc;
@@ -127,7 +128,7 @@ body {
   }
   
   code, pre {
-    background-color: #whitesmoke;
+    background-color: whitesmoke;
     padding: 0.3rem 0.5rem;
     border-radius: 4px;
     font-family: monospace;
@@ -139,7 +140,7 @@ body {
     text-align: center;
     padding: 1rem;
     background-color: #2d4159;
-    color: #0677a1;
+    color: whitesmoke;
     margin-top: 2rem;
   }
   
