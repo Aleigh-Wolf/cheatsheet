@@ -112,6 +112,7 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0;
+    padding: 50px;
   }
   
   /* Table styling */
